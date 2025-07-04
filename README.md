@@ -1,1 +1,92 @@
-# Robot-Chat-HACKEAD
+local head = script.Parent
+
+local randomChats = {
+	"I may struggle with geography, but I'm sure I'm somewhere around here.",
+	"The baby in the sun from teletubbies is 24 years old now.",
+	"If you ever feel bad about your looks just remember that shrek was inspired by a real life human being",
+	"Bingo is like battle royale for the elderly.",
+	"Somebody once told me the world is gonna roll me.",
+	"Abc for a daughter",
+	"Mama",
+	"I will kill your family",
+	"Blue is my favorite rainbow friends",
+	"Hi I'm using the voice to text thing where I speak with my voice and then it does the voice to text so it types of my voice so that I'm talking into the iPad and then is making me speak in the game on that game this game not this game not that game and then this one is fun hahaha hahaha",
+	"What is your favorite food?",
+	"I hate you",
+	"Go away noob",
+	"##########################",
+	"Brookhaveb HACKEAD",
+	"Abc for a girl",
+	"ABC",
+	"Abc",
+	"ABC",
+	"ABC PLS ME",
+	"want to play a different game",
+	"I THOUGHT WE WERE FRIENDS",
+	"Mommy I understand that we are poor",
+	"I'm hungry",
+	"I have a rainbow",
+	"###################",
+	"i wannt gramly on tis acouns",
+	"I love this game",
+	"Santa Claus is dead",
+	"😎😎😎😎😎😎😎😎😎😎😎😎",
+	"Hello friend",
+	"Friends please",
+	"ADOPT ME",
+	"Trust trade me don't worry I will clone your child",
+	"Let's play (NEW CODE) 🎊 Mushroom Simulator🍄🍄🍄",
+	"What is a man?",
+	"I hate men",
+	"gay",
+	"go away please",
+	":)",
+	":(",
+	"yes",
+	"Yes",
+	"Yes",
+	"yes",
+	"no",
+	"No",
+	"No",
+	"no",
+	"Today is a bad day >:(",
+	"Among Us Killer NPC",
+	"I need a rich dad",
+	"I got bars from mars",
+	"I like snakes",
+	"I hate Poland",
+	"Polish people are from Poland I think maybe",
+	"I am LittleSixGamers_32",
+	"Can you please stop",
+	"STOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+	"I'm bracking up with you",
+	"Brockhavin roll play game",
+	":D",
+	"p",
+	"abc",
+	"ABC FOR GIRL",
+	"ABC FOR A GIRL",
+	"ABC FOR FREE RAINBOW SHADOW NEON FLYING POTION SHINY LIMITED TIME RIDABLE DINOSAUR CAT PET",
+	"This game is the best :)",
+	"This game is the best",
+	"This game is the best game ever",
+	"I hit a car with my cat today",
+	"There's a cat on my muscle",
+	"Oyster crackers taste good",
+	"TikTok",
+	"Hey YouTube, in this video we will be going over how to catch a butterfly in Roblox BrookHavin Are Pe",
+	"TALK TO ME",
+
+}
+
+while true do
+	wait(math.random(15, 30))
+	local last
+	local r = randomChats[math.random(1, #randomChats)]
+	if not(r == last) then
+		game:GetService("Chat"):Chat(head, r, "Blue")
+	end
+end
+
+-- Put this in the Head of the NPC that you want to talk.
